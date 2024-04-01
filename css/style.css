@@ -8,6 +8,7 @@ a {
 }
 
 button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
 ul,
@@ -34,8 +35,7 @@ p {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .section {
   padding: 120px 0;
@@ -177,15 +177,15 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.qual-list {
+.quality-list {
   display: flex;
   align-items: flex-start;
   gap: 24px;
 }
-.qual-item {
+.quality-item {
   width: calc((100% - 24px * 3) / 4);
 }
-.qual-sub-title {
+.quality-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
   color: #2e2f42;
@@ -193,7 +193,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.qual-text {
+.quality-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -230,7 +230,7 @@ p {
 .team-cont {
   padding: 32px 0;
 }
-.team-sub-title {
+.team-subtitle {
   margin-bottom: 8px;
   font-weight: 500;
   color: #2e2f42;
@@ -278,7 +278,7 @@ p {
   border-top: none;
   align-items: flex-start;
 }
-.portfolio-sub-title {
+.portfolio-subtitle {
   font-weight: 500;
   color: #2e2f42;
   font-size: 20px;
