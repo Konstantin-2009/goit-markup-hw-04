@@ -99,6 +99,7 @@ p {
 
 .nav-item .nav-link {
   color: #2e2f42;
+  color: #404bbf;
 }
 .nav-link.active::after {
   content: "";
@@ -365,7 +366,7 @@ p {
   align-items: center;
   position: absolute;
   padding: 40px 32px;
-  padding: 0;
+
   left: 0;
   top: 0;
   transform: translatey(100%);
